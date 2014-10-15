@@ -10,6 +10,8 @@ int main(int argc, char *argv[]){
 	int n;
 	while(file>>n){
 		string denom;
+
+		//TODO rewrite
 		if(n>=100000000){
 			cout<<digitText(n/100000000)<<"Hundred";
 			denom="Million";
